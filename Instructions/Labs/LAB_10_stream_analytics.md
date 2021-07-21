@@ -1,3 +1,9 @@
+---
+lab:
+    title: 'Real-time stream processing with Stream Analytics'
+    module: 'Module 10'
+---
+
 # Module 10 - Real-time stream processing with Stream Analytics
 
 In this module, students will learn how to process streaming data with Azure Stream Analytics. The student will ingest vehicle telemetry data into Event Hubs, then process that data in real time, using various windowing functions in Azure Stream Analytics. They will output the data to Azure Synapse Analytics. Finally, the student will learn how to scale the Stream Analytics job to increase throughput.

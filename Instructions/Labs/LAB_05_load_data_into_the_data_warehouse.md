@@ -1,3 +1,9 @@
+---
+lab:
+    title: 'Ingest and load data into the Data Warehouse'
+    module: 'Module 5'
+---
+
 # Module 5 - Ingest and load data into the Data Warehouse
 
 This module teaches students how to ingest data into the data warehouse through T-SQL scripts and Synapse Analytics integration pipelines. The student will learn how to load data into Synapse dedicated SQL pools with PolyBase and COPY using T-SQL. The student will also learn how to use workload management along with a Copy activity in a Azure Synapse pipeline for petabyte-scale data ingestion.

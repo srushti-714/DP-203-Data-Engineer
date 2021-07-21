@@ -1,3 +1,9 @@
+---
+lab:
+    title: 'End-to-end security with Azure Synapse Analytics'
+    module: 'Module 8'
+---
+
 # Module 8 - End-to-end security with Azure Synapse Analytics
 
 In this module, students will learn how to secure a Synapse Analytics workspace and its supporting infrastructure. The student will observe the SQL Active Directory Admin, manage IP firewall rules, manage secrets with Azure Key Vault and access those secrets through a Key Vault linked service and pipeline activities. The student will understand how to implement column-level security, row-level security, and dynamic data masking when using dedicated SQL pools.

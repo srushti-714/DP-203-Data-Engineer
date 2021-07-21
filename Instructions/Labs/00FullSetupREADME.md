@@ -1,3 +1,9 @@
+---
+lab:
+    title: 'Full Setup Guide (use only if not using course VM)'
+    module: 'Module 0'
+---
+
 # Module 0 - Lab environment setup with NO pre-installed virtual machine
 
 Time to complete: 120 minutes

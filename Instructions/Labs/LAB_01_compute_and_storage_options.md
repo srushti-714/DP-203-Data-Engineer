@@ -1,3 +1,9 @@
+---
+lab:
+    title: 'Explore compute and storage options for data engineering workloads'
+    module: 'Module 1'
+---
+
 # Module 1 - Explore compute and storage options for data engineering workloads
 
 This module teaches ways to structure the data lake, and to optimize the files for exploration, streaming, and batch workloads. The student will learn how to organize the data lake into levels of data refinement as they transform files through batch and stream processing. Then they will learn how to create indexes on their datasets, such as CSV, JSON, and Parquet files, and use them for potential query and workload acceleration.

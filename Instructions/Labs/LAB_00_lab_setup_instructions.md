@@ -1,3 +1,9 @@
+---
+lab:
+    title: 'Lab environment setup with a pre-installed virtual machine'
+    module: 'Module 0'
+---
+
 # Module 0 - Lab environment setup with a pre-installed virtual machine
 
 The following instructions enables learners to prepare their lab environments for the modules that follow. Please run through these instructions prior to starting Module 1.

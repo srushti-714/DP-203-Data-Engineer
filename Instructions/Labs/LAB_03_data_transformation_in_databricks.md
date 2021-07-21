@@ -1,3 +1,9 @@
+---
+lab:
+    title: 'Data exploration and transformation in Azure Databricks'
+    module: 'Module 3'
+---
+
 # Module 3 - Data exploration and transformation in Azure Databricks
 
 This module teaches how to use various Apache Spark DataFrame methods to explore and transform data in Azure Databricks. The student will learn how to perform standard DataFrame methods to explore and transform data. They will also learn how to perform more advanced tasks, such as removing duplicate data, manipulate date/time values, rename columns, and aggregate data.

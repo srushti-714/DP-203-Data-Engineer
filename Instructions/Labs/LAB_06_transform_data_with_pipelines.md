@@ -1,3 +1,10 @@
+---
+lab:
+    title: 'Transform data with Azure Data Factory or Azure Synapse Pipelines'
+    module: 'Module 6'
+---
+
+
 # Module 6 - Transform data with Azure Data Factory or Azure Synapse Pipelines
 
 This module teaches students how to build data integration pipelines to ingest from multiple data sources, transform data using mapping data flows and notebooks, and perform data movement into one or more data sinks.
