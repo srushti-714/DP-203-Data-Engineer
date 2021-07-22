@@ -37,7 +37,7 @@ Tailwind Trader's Data Engineers want a way to explore the data lake, transform 
 
 ## Lab setup and pre-requisites
 
-- You have successfully completed [Module 0](../00/README.md) to create your lab environment.
+- You have successfully completed [setup](./LAB_00_lab_setup_instructions.md) to create your lab environment.
 - You must have permissions to create new Azure Active Directory security groups and assign members to them.
 
 ## Exercise 1: Querying a Data Lake Store using serverless SQL pools in Azure Synapse Analytics
@@ -68,7 +68,7 @@ When you query Parquet files using serverless SQL pools, you can explore the dat
 
     ![The cell output is displayed.](images/sql-on-demand-output.png "SQL output")
 
-4. Modify the SQL query to perform aggregates and grouping operations to better understand the data. Replace the query with the following, making sure that the file path in `OPENROWSET` matches the current file path:
+4. Modify the SQL query to perform aggregates and grouping operations to better understand the data. Replace the query with the following, replacing *SUFFIX* with the unique suffix for your Azure Data Lake store and making sure that the file path in `OPENROWSET` matches the current file path:
 
     ```sql
     SELECT
@@ -85,7 +85,7 @@ When you query Parquet files using serverless SQL pools, you can explore the dat
 
     ![The T-SQL query above is displayed within the query window.](images/sql-serverless-aggregates.png "Query window")
 
-5. Let's move on from this single file from 2019 and transition to a newer data set. We want to figure out how many records are contained within the Parquet files for all 2019 data. This information is important for planning how we optimize for importing the data into Azure Synapse Analytics. To do this, we'll replace the query with the following (be sure to update the name of your data lake in the BULK statement, by replacing `[asadatalakeSUFFIX]`):
+5. Let's move on from this single file from 2019 and transition to a newer data set. We want to figure out how many records are contained within the Parquet files for all 2019 data. This information is important for planning how we optimize for importing the data into Azure Synapse Analytics. To do this, we'll replace the query with the following (be sure to update the suffix of your data lake in the BULK statement):
 
     ```sql
     SELECT
