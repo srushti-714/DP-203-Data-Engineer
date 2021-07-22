@@ -62,10 +62,10 @@ In this lab, you will use an Azure Databricks workspace and perform Structured S
 
     ![The menu option to import the archive](images/import-archive.png)
 
-1. In the **Import Notebooks** dialog box, select the URL and paste in the following URL: <!-- Update path when lab files move to MicrosoftLearning repo -->
+1. In the **Import Notebooks** dialog box, select the URL and paste in the following URL:
 
     ```
-    https://github.com/ctesta-oneillmsft/xyz/blob/main/Allfiles/microsoft-learning-paths-databricks-notebooks/data-engineering/DBC/11-Delta-Lake-Architecture.dbc?raw=true
+    https://github.com/MicrosoftLearning/DP-203-Data-Engineer/raw/master/Allfiles/microsoft-learning-paths-databricks-notebooks/data-engineering/DBC/11-Delta-Lake-Architecture.dbc
     ```
 
 1. Select **Import**.

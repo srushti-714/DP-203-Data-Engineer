@@ -122,7 +122,7 @@ To complete this lab, you will need to create an event hub.
 1. In the **Import Notebooks** dialog box, select the URL and paste in the following URL:
 
  ```
-   https://github.com/ctesta-oneillmsft/xyz/blob/main/Allfiles/microsoft-learning-paths-databricks-notebooks/data-engineering/DBC/10-Structured-Streaming.dbc?raw=true
+   https://github.com/MicrosoftLearning/DP-203-Data-Engineer/raw/master/Allfiles/microsoft-learning-paths-databricks-notebooks/data-engineering/DBC/10-Structured-Streaming.dbc
  ```
 
 1. Select **Import**.
